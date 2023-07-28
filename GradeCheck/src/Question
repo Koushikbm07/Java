@@ -1,0 +1,17 @@
+Grade Check
+
+Question Description: Create a program that checks if a student's grade is above 50 and prints "Pass", else it prints "Fail". The program should accept an integer 'grade' as input.
+
+Boiler Plate Code:
+
+public class Main { public static void checkGrade(int grade) { // your code here } public static void main(String[] args) { checkGrade(55); } }
+
+Sample Input: 55
+
+Sample Output: Pass
+
+Full Code Solution:
+
+public class Main { public static void checkGrade(int grade) { if (grade > 50) { System.out.println("Pass"); } else { System.out.println("Fail"); } } public static void main(String[] args) { checkGrade(55); } }
+
+In Detailed Explanation: The checkGrade function checks if the grade is greater than 50. If it is, it prints "Pass", otherwise, it prints "Fail".

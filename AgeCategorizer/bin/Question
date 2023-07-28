@@ -1,0 +1,13 @@
+Age Categorizer
+
+Question Description: Create a program that categorizes people based on their age: Child (0-12), Teen (13-19), Adult (20-59), Senior (60+). The program should accept an integer 'age' as input.
+
+Boiler Plate Code:
+
+public class Main { public static void categorizeAge(int age) { // your code here } public static void main(String[] args) { categorizeAge(25); } }
+
+Sample Input: 25
+
+Sample Output: Adult
+
+In Detailed Explanation: The categorizeAge function categorizes an age as a Child if it's between 0 and 12, as a Teen if it's between 13 and 19, as an Adult if it's between 20 and 59, and as a Senior if it's 60 or older. If the age is less than 0, it prints "Invalid age".
